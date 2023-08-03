@@ -1,0 +1,79 @@
+:root {
+  color: #f4f4fd;
+  color: #ffffff;
+  color: #434455;
+  color: #2e2f42;
+  color: #4d5ae5;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 16;
+}
+.logo {
+  color: var(--iris, #4d5ae5);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.16;
+}
+.logo1 {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.16;
+}
+.navigation-link {
+  font-size: 16;
+  font-weight: 500;
+  line-height: 1.5;
+  text-decoration: none;
+}
+.increse {
+  color: var(--cloud, #f4f4fd);
+}
+.contacts {
+  color: var(--slate, #434455);
+  font-size: 16;
+  line-height: 1.5;
+  text-decoration: none;
+}
+.entry {
+  color: var(--white, #fff);
+  font-size: 16;
+  font-weight: 500;
+  line-height: 1.5;
+  cursor: pointer;
+  text-decoration: none;
+}
+.entry:active {
+  color: #4d5ae5;
+}
+h1 {
+  color: var(--white, #fff);
+  text-align: center;
+  font-size: 56;
+  font-weight: 700;
+  line-height: 1.07;
+  text-decoration: none;
+}
+h2 {
+  text-align: center;
+  font-size: 36;
+  font-weight: 700;
+  line-height: 1.11px;
+}
+.department {
+  font-size: 20;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  line-height: 2;
+}
+.contents {
+  color: var(--slate, #434455);
+  font-size: 16;
+  line-height: 1.5;
+}
