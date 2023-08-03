@@ -21,7 +21,6 @@ body {
   line-height: 1.16;
 }
 .logo1 {
-  font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.16;
@@ -51,6 +50,7 @@ body {
   line-height: 1.5;
   cursor: pointer;
   text-decoration: none;
+  display: flex;
 }
 .entry:active {
   color: #4d5ae5;
