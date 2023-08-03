@@ -35,6 +35,9 @@ body {
 .increse {
   color: var(--cloud, #f4f4fd);
 }
+.increse:active {
+  color: #f4f4fd;
+}
 .contacts {
   color: var(--slate, #434455);
   font-size: 16;
