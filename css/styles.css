@@ -65,15 +65,18 @@ h2 {
   font-size: 36;
   font-weight: 700;
   line-height: 1.11px;
+  text-decoration: none;
 }
 .department {
   font-size: 20;
   font-weight: 500;
   letter-spacing: 0.4px;
   line-height: 2;
+  text-decoration: none;
 }
 .contents {
   color: var(--slate, #434455);
   font-size: 16;
   line-height: 1.5;
+  text-decoration: none;
 }
