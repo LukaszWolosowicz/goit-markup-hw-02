@@ -14,7 +14,7 @@ body {
   font-size: 16;
 }
 .logo {
-  color: var(--iris, #4d5ae5);
+  color: #2e2f42;
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
@@ -22,8 +22,8 @@ body {
   text-transform: uppercase;
   text-decoration: none;
 }
-.logo1 :three-letter {
-  color: #2e2f42;
+.logo1 {
+  color: var(--iris, #4d5ae5);
   font-size: 18px;
   font-weight: 800;
   line-height: 1.16;
@@ -39,29 +39,34 @@ body {
 }
 .increse:active {
   color: #f4f4fd;
+  background: var(--navyblue, #2e2f42);
 }
-.contacts {
+.contact {
   font-size: 16;
   line-height: 1.5;
   text-decoration: none;
 }
-.contacts:hover {
+.contact:hover {
   color: var(--slate, #434455);
 }
 .entry {
-  color: var(--iris, #4d5ae5);
+  color: var(--cloud, #f4f4fd);
   font-size: 16;
   font-weight: 500;
   line-height: 1.5;
   cursor: pointer;
   text-decoration: none;
   display: flex;
+  border-radius: 4px;
+  background: var(--iris, #4d5ae5);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .entry:active {
   color: #4d5ae5;
 }
 h1 {
   color: var(--white, #fff);
+  background: var(--navyblue, #2e2f42);
   text-align: center;
   font-size: 56;
   font-weight: 700;
