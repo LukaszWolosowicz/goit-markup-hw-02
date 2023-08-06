@@ -19,8 +19,11 @@ body {
   font-size: 18px;
   font-weight: 800;
   line-height: 1.16;
+  text-transform: uppercase;
+  text-decoration: none;
 }
-.logo1 {
+.logo1 :three-letter {
+  color: #2e2f42;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.16;
@@ -38,13 +41,15 @@ body {
   color: #f4f4fd;
 }
 .contacts {
-  color: var(--slate, #434455);
   font-size: 16;
   line-height: 1.5;
   text-decoration: none;
 }
+.contacts:hover {
+  color: var(--slate, #434455);
+}
 .entry {
-  color: var(--white, #fff);
+  color: var(--iris, #4d5ae5);
   font-size: 16;
   font-weight: 500;
   line-height: 1.5;
