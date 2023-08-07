@@ -14,41 +14,27 @@
   <body>
     <link rel="stylesheet" href="./css/styles.css" />
     <header>
-      <nav>
-        <a href="/webstudio.html" style="text-decoration: none" class="logo"
-          ><span class="logo1">Web</span>Studio</a
+      <div class="nav-box">
+        <a href="./index.html"
+          ><span class="first-half-logo">Web</span
+          ><span class="second-half-logo">Studio</span></a
         >
-
-        <ul>
-          <li><a class="navigation-link" href="/studio.html">Studio</a></li>
-          <li>
-            <a class="navigation-link" href="/portfolio.html">Portfolio</a>
-          </li>
-          <li><a class="navigation-link" href="/contacts.html">Contacts</a></li>
+        <nav class="nav-list">
+          <ul>
+            <li><a href="./studio-page.html">Studio</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+            <li><a href="./contacts-page.html">Contacts</a></li>
+          </ul>
+        </nav>
+        <ul class="contact-list">
+          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a href="tel+11 (000) 111-11-11">+11 (000) 111-11-11</a></li>
         </ul>
-      </nav>
-      <ul>
-        <li>
-          <a
-            class="contacts"
-            style="text-decoration: none"
-            href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a
-            class="contacts"
-            style="text-decoration: none"
-            href="tel:+48111111111"
-            >+48 111 111 111
-          </a>
-        </li>
-      </ul>
+      </div>
     </header>
     <section>
-      <ul class="entry">
-        <li><button type="button">All</button></li>
+      <ul class="main-button">
+        <li><button class="main-button" type="button">All</button></li>
         <li><button type="button">Web</button></li>
         <li><button type="button">Site</button></li>
         <li><button type="button">App</button></li>
@@ -56,7 +42,8 @@
         <li><button type="button">Marketing</button></li>
       </ul>
     </section>
-    <section>
+
+    <section class="doing-list">
       <ul>
         <li>
           <figure>
@@ -187,14 +174,17 @@
         </li>
       </ul>
     </section>
-    <footer>
-      <a href="/webstudio.html" style="text-decoration: none" class="logo"
-        ><span class="logo1">Web</span>Studio</a
+  </body>
+  <footer>
+    <div class="footer-box">
+      <a href="./index.html"
+        ><span class="first-half-logo">Web</span
+        ><span class="second-half-logo-footer">Studio</span></a
       >
-      <p class="Increase .increse:active">
+      <p>
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
-    </footer>
-  </body>
+    </div>
+  </footer>
 </html>
