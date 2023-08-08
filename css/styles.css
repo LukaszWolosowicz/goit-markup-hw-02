@@ -233,8 +233,8 @@ footer a {
   cursor: pointer;
   text-decoration: none;
 }
-.secend-button.link:focus:
-.secend-button.link:hover {
+.secend-button > link:focus,
+.secend-button > link:hover {
   color: var(--white, #fff);
   background: var(--ocean, #404bbf);
 }
