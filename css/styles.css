@@ -230,12 +230,11 @@ footer a {
   border-radius: 4px;
   border: 1px solid var(--cornflower, #e7e9fc);
   background: var(--cloud, #f4f4fd);
+  cursor: pointer;
+  text-decoration: none;
 }
-
-.secend-button {
-  background-color: var(--icon-hover-color);
-}
-
-.secend-button {
-  background-color: var(--icon-hover-color);
+.secend-button.link:focus:
+.secend-button.link:hover {
+  color: var(--white, #fff);
+  background: var(--ocean, #404bbf);
 }
