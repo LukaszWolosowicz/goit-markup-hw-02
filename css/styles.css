@@ -17,8 +17,8 @@
   --dark-text-color: #2e2f42;
 }
 body {
-  font-family: var(--Roboto);
-  color: var(#2e2f42);
+  font-family: var(--main-font);
+  color: var(--body-text-color);
 }
 .nav-box a {
   text-decoration: none;
@@ -52,6 +52,12 @@ body {
 
 .main-theme-box h1 {
   color: var(--background-color);
+  text-align: center;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.071;
+  letter-spacing: 1.12px;
 }
 
 footer a {
@@ -87,7 +93,7 @@ footer a {
   gap: 24px;
 }
 
-.team-list ul {
+.team ul {
   text-align: center;
   display: flex;
   list-style: none;
@@ -160,7 +166,34 @@ footer a {
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
+.topic {
+  color: var(--navyblue, #2e2f42);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+.text {
+  color: var(--slate, #434455);
 
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.topic3 {
+  color: var(--navyblue, #2e2f42);
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.111;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
 .main-button {
   border-radius: 4px;
   background: var(--icon-color);
@@ -172,7 +205,7 @@ footer a {
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64;
+  letter-spacing: 0.64px;
   border-color: transparent;
   cursor: pointer;
   text-decoration: none;
@@ -187,20 +220,16 @@ footer a {
 }
 
 .secend-button {
-  border-radius: 4px;
-  background: var(--icon-color);
-  width: 169px;
-  height: 56px;
-  color: var(--background-color);
-  font-family: Roboto;
+  color: var(--iris, #4d5ae5);
+  text-align: center;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
-  border-color: transparent;
-  cursor: pointer;
-  text-decoration: none;
+  border-radius: 4px;
+  border: 1px solid var(--cornflower, #e7e9fc);
+  background: var(--cloud, #f4f4fd);
 }
 
 .secend-button {
