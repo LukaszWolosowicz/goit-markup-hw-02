@@ -16,25 +16,10 @@
   --logo-font: Raleway, sans-serif;
   --dark-text-color: #2e2f42;
 }
-
-:root {
-  --main-font: Roboto, sans-serif;
-  --background-color: #ffffff;
-  --modal-background-color: #fcfcfc;
-  --icon-color: #4d5ae5;
-  --icon-hover-color: #404bbf;
-  --dark-background-color: #2e2f42;
-  --green-success-color: #31d0aa;
-  --body-text-color: #434455;
-  --helper-text-color: #8e8f99;
-  --accent-color: #e7e9fc;
-  --light-mode-background: #f4f4fd;
-  --overlay-color: #2e2f42;
-  --hero-background: #2e2f42;
-  --logo-font: Raleway, sans-serif;
-  --dark-text-color: #2e2f42;
+body {
+  font-family: var(--Roboto);
+  color: var(#2e2f42);
 }
-
 .nav-box a {
   text-decoration: none;
   color: var(--dark-text-color);
@@ -51,20 +36,23 @@
 }
 
 .main-theme-box {
-  background-color: var(--dark-background-color);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  color: var(--white, #fff);
+
+  width: 496px;
+  text-align: center;
+  font-size: 56;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.071;
+  letter-spacing: 1.12;
+  width: 1440px;
+  height: 600px;
+  flex-shrink: 0;
+  background: var(--navyblue, #2e2f42);
 }
 
 .main-theme-box h1 {
   color: var(--background-color);
-}
-
-body {
-  font-family: var(--main-font);
-  color: var(--body-text-color);
 }
 
 footer a {
@@ -123,6 +111,10 @@ footer a {
 }
 
 .nav-list ul {
+  font-size: 16;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
   display: flex;
   list-style: none;
   gap: 40px;
@@ -175,6 +167,7 @@ footer a {
   letter-spacing: 0.64px;
   border-color: transparent;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .main-button:hover {
