@@ -212,6 +212,7 @@ footer a {
 }
 .main-button {
   color: var(--white, #fff);
+  text-align: center;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -225,6 +226,7 @@ footer a {
   border-radius: 4px;
   background: var(--iris, #4d5ae5);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  text-transform: capitalize;
   cursor: pointer;
   text-decoration: none;
   font-family: var(--main-font);
@@ -232,6 +234,8 @@ footer a {
 
 .main-button:hover {
   background-color: var(--icon-hover-color);
+  text-transform: capitalize;
+  text-align: center;
 }
 
 .main-button:focus {
