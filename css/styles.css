@@ -38,16 +38,15 @@ body {
 .main-theme-box {
   color: var(--white, #fff);
   text-align: center;
-  width: 496;
-  font-size: 56;
+  width: 496px;
+  font-size: 56px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.071;
-  letter-spacing: 1.12;
+  letter-spacing: 1.12px;
   width: 1440;
   height: 600;
   flex-shrink: 0;
-  background: var(--navyblue, #2e2f42);
 }
 
 .main-theme-box h1 {
@@ -59,23 +58,7 @@ body {
   line-height: 1.071;
   letter-spacing: 1.12px;
 }
-.two-theme-box {
-  color: var(--iris, #4d5ae5);
-  text-align: center;
-  font-family: Roboto;
-  font-size: 16;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.64px;
-  display: flex;
-  padding: 12px 24px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 4px;
-  border: 1px solid var(--cornflower, #e7e9fc);
-  background: var(--cloud, #f4f4fd);
-}
+
 footer a {
   text-decoration: none;
 }
@@ -130,7 +113,7 @@ footer a {
 .contact-list {
   color: var(--slate, #434455);
 
-  font-size: 16;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5; /* 150% */
@@ -141,7 +124,7 @@ footer a {
 }
 
 .nav-list ul {
-  font-size: 16;
+  font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
